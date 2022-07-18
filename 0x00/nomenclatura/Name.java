@@ -9,7 +9,6 @@ public class Name {
     public List<Account> AccountList;
 
     // Sem Prefixos
-
     //B
     public void deleteUser(Name.User user){};
 
@@ -29,5 +28,5 @@ public class Name {
 
     //Use constants, enums instead of magic numbers, abbreviations
     //A
-    public int daysInYear = 360;
-    public int hoursInWeek = 168;
+    public final int DAYS_IN_YEAR = 360;
+    public final int HOURS_IN_WEEK = 168;
